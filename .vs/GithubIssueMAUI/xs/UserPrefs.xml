@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{C192491E-C320-431D-80B9-A379D3E9185E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3B662E44-97F3-42B7-BB46-8797FF71A78D" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GithubIssueMAUI PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3B662E44-97F3-42B7-BB46-8797FF71A78D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GithubIssueMAUI/Platforms/iOS/App.xaml.iOS.cs">
+    <Files>
+      <File FileName="GithubIssueMAUI/MainPage.xaml.cs" Line="3" Column="30" />
+      <File FileName="GithubIssueMAUI/MainPage.xaml" Line="70" Column="44" />
+      <File FileName="GithubIssueMAUI/MauiProgram.cs" Line="21" Column="15" />
+      <File FileName="GithubIssueMAUI/App.xaml.cs" Line="6" Column="3" />
+      <File FileName="GithubIssueMAUI/MainPageViewModel.cs" Line="25" Column="7" />
+      <File FileName="GithubIssueMAUI/ViewModelBase.cs" Line="11" Column="6" />
+      <File FileName="GithubIssueMAUI/App.xaml" Line="1" Column="1" />
+      <File FileName="GithubIssueMAUI/Platforms/iOS/CustomLabelViewHandler.cs" Line="11" Column="16" />
+      <File FileName="GithubIssueMAUI/App.xaml.iOS.cs" Line="13" Column="3" />
+      <File FileName="GithubIssueMAUI/Platforms/Android/App.xaml.Android.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GithubIssueMAUI" expanded="True">
+            <Node name="GithubIssueMAUI" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True">
+                  <Node name="App.xaml.iOS.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/lpv/Projects/GithubIssueMAUI/GithubIssueMAUI/Platforms/iOS/CustomLabelViewHandler.cs" relfile="GithubIssueMAUI/Platforms/iOS/CustomLabelViewHandler.cs" line="13" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

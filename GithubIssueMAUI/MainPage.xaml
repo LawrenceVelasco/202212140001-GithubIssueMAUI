@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GithubIssueMAUI.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <CollectionView x:Name="List" ItemsSource="{Binding StringList}">
+        <CollectionView.ItemsLayout>
+                    <LinearItemsLayout
+                        ItemSpacing="15"
+                        Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+        <CollectionView.Header>
+            <VerticalStackLayout IsVisible="{Binding IsHeaderVisible}" Spacing="6">
+                        <VerticalStackLayout.Padding>
+                            <OnPlatform
+                                x:TypeArguments="Thickness">
+                                <On
+                                    Platform="iOS"
+                                    Value="15,15,15,20" />
+                                <On
+                                    Platform="Android"
+                                    Value="15,15,15,5" />
+                            </OnPlatform>
+                        </VerticalStackLayout.Padding>
+                        <Image
+                            Aspect="AspectFill"
+                            BackgroundColor="LightGray"
+                            HeightRequest="200"
+                            HorizontalOptions="FillAndExpand"
+                            Source="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg" />
+                        <Label
+                            Padding="0"
+                            FontAttributes="Bold"
+                            FontSize="22"
+                            LineBreakMode="TailTruncation"
+                            MaxLines="3"
+                            Text="My Title Test Long Text Long Text" />
+                        <Label
+                            Padding="0"
+                            FontSize="14"
+                            LineBreakMode="TailTruncation"
+                            MaxLines="1"
+                            Text="Link"
+                            TextColor="#BF332B" />
+                        <Label
+                            Padding="0"
+                            FontSize="12"
+                            LineBreakMode="TailTruncation"
+                            MaxLines="1"
+                            Text="Today"
+                            TextColor="#BF332B" />
+                        <BoxView
+                            Margin="0,14,0,0"
+                            HeightRequest="0.8"
+                            VerticalOptions="End"
+                            Color="Red" />
+                    </VerticalStackLayout>
+        </CollectionView.Header>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="15,0"
+                            ColumnDefinitions="*,0.5*"
+                            ColumnSpacing="10"
+                            RowDefinitions="Auto,Auto,Auto"
+                            RowSpacing="2"> 
+                <Label
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Padding="0"
+                    LineBreakMode="TailTruncation"
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                MaxLines="3"
+                                Text="{Binding .}" />
+
+                            <!--<Label
+                                Grid.Row="1"
+                                Grid.Column="0"
+                                Margin="0,2,0,0"
+                                Padding="0"
+                                FontSize="14"
+                                LineBreakMode="TailTruncation"
+                                MaxLines="1"
+                                Text="{Binding .}"
+                                TextColor="#BF332B" />
+
+                            <Label
+                                Grid.Row="2"
+                                Margin="0,2,0,0"
+                                Padding="0"
+                                FontSize="12"
+                                LineBreakMode="TailTruncation"
+                                MaxLines="1"
+                                Text="{Binding .}"
+                                TextColor="#BF332B" />-->
+
+                            <Image
+                                Grid.RowSpan="3"
+                                Grid.Column="1"
+                                Aspect="AspectFill"
+                                BackgroundColor="LightGray"
+                                HeightRequest="80"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand" />
+                    </Grid>
+            </DataTemplate>
+
+        </CollectionView.ItemTemplate>
+        <CollectionView.Footer>
+                    <BoxView
+                        HeightRequest="20"
+                        Color="Transparent" />
+                </CollectionView.Footer>
+
+    </CollectionView>
+
+</ContentPage>
+

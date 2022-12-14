@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="GithubIssueMAUI.app/GithubIssueMAUI">
+      <BCSymbolMapName>GithubIssueMAUI.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>GithubIssueMAUI.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/lpv/Projects/GithubIssueMAUI/GithubIssueMAUI/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>GithubIssueMAUI.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/lpv/Projects/GithubIssueMAUI/GithubIssueMAUI</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
