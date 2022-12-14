@@ -35,7 +35,7 @@
                             FontSize="22"
                             LineBreakMode="TailTruncation"
                             MaxLines="3"
-                            Text="My Title Test Long Text Long Text" />
+                            Text="{Binding MyTitle}" />
                         <Label
                             Padding="0"
                             FontSize="14"
